@@ -1,0 +1,187 @@
+/* Created on : 18 ene 2023, 9:49:13
+   Author     : Santiago González López. 1º DAM 2022/23*/
+*{/* El "*" afecta a todos los elementos; quitaremos cosas que vienen por defecto*/
+    margin: 0px;/*quita todo margen, en principio*/
+    padding: 0px;/*quita todo espacio entre elementos*/
+    font-size: 100%;
+    font-weight: normal;
+}
+html {
+    background:#F4F2F7;
+}
+Body{ 
+    background:#F4F2F7 ;
+    
+}
+#encabezado{
+    background:#F4F2F7;
+    height: 150px;
+    width: 100%;
+}
+#encabezado img{
+    position:absolute;
+    right:13%;
+    top: 2%;
+    height: 120px;
+    width: 140px;
+}
+#encabezado header h1{
+    font-size: 70px;
+    font-family:Tahoma, Arial Rounded;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    color:#9A4122;
+    font-weight: 900;
+    position:absolute;
+    right:30%;
+    top: 5%;
+}
+#encabezado header h2{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color:#9A939F;
+    position:absolute;
+    right:33%;
+    top: 4%;
+}
+#menu{
+    position:absolute;
+    right:72%;
+    top: 12%;
+}
+#menu ul{
+    list-style: none;/*quita los puntos de las viñetas*/
+}
+#menu ul li{
+    display: inline-block;
+    font-size: 17px;
+    background: #162050;
+    margin-left: 20px;
+}  
+#menu ul li a{
+    color: #FFFFFF;
+    display: block;/*El texto ocupa todo el contenedor del li;se pone para poder, después, con padding modificar la anchura*/
+    padding: 6px;
+    text-decoration:none;/*quita el subrayado*/
+    font-family: Comic Sans Ms;
+}
+#menu ul li a:hover{
+    background-color:#958A6C;
+}
+#contenido{     
+    background:#F4F2F7;
+    height: 556px;
+    width: 100%;
+}
+#banner{
+    height: 120px;
+    width: 1000px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+#contenido p{
+    margin: 60px;
+    font-size: 20px;
+}
+#imgurge{
+    position:absolute;
+    right:80%;
+    top: 30%;}
+#imgurge:hover{
+    margin-top: 4px}
+#imgsobres{
+    position:absolute;
+    right:20%;
+    top: 30%;}
+#imgsobres:hover{
+    margin-top: 4px}
+#imgsectorial{
+    position:absolute;
+    right:80%;
+    top: 60%;}
+#imgsectorial:hover{
+    margin-top: 4px}
+#imgpromo2{
+    position:absolute;
+    right:20%;
+    top: 60%;}
+#imgpromo2:hover{
+    margin-top: 4px}
+#imgpaquetes{
+    position:absolute;
+    right:40%;
+    top: 30%;}
+#imgpaquetes:hover{
+    margin-top: 4px}
+#imgpapelburbuja{
+    position:absolute;
+    right:40%;
+    top: 60%;}
+#imgpapelburbuja:hover{
+    margin-top: 4px}
+#imginternacional{
+    position:absolute;
+    right:60%;
+    top: 30%;}
+#imginternacional:hover{
+    margin-top: 4px}
+#imgamedida{
+    position:absolute;
+    right:60%;
+    top: 60%;}
+#imgamedida:hover{
+    margin-top: 4px}
+#txturge{
+   position:absolute;right:81%; top: 51%;}
+#txtterritorial{
+   position:absolute;right:60.5%; top: 51%;} 
+#txtsectorial{
+   position:absolute;right:81%; top: 81%;} 
+#txtamedida{
+   position:absolute;right:61.5%; top: 81%;} 
+#txtpaquetes{
+   position:absolute;right:43.5%; top: 51%;} 
+#txtsobres{
+   position:absolute;right:24%; top: 51%;} 
+#txtpapel{
+   position:absolute;right:44%; top: 81%;} 
+#txtpromo{
+   position:absolute;right:22%; top: 81%;} 
+   
+  
+
+
+
+#formulario1{
+    position:absolute;
+    right:40%;
+    top: 30%;
+}
+#formulario2{
+    position:absolute;
+    right:75%;
+    top: 50%;
+}
+#pie{
+    background:#DDD8D8;
+    height: 50px;
+    width: 100%;
+}
+#pie h1{
+    font-family:Tahoma, Arial Rounded;
+    font-weight: 800;
+    font-size: 18px;
+    font-style: italic;
+    color: #202955;
+    padding-top: 8px;
+    padding-left: 45px;
+}
+#pie h6{
+    font-size: 14px;
+    font-family:ArialRounded Tahoma;
+    float: right;
+    position:absolute;
+    right:3%;
+    bottom: 1%;
+}

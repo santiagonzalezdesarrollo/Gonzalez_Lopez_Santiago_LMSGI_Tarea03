@@ -1,0 +1,13 @@
+{
+    "name": "Gonzalez_Lopez_Santiago_LMSGI_Tarea02",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
